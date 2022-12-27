@@ -1,24 +1,24 @@
 pipeline {
-    agent any
+  agent any
 
-    stages {
+  stages {
 
-      stage('One') {
-        steps {
-          echo "one"
-        }
+    stage('One') {
+      steps {
+        echo "one"
       }
-
-       stage('Two') {
-         steps {
-           echo "two"
-         }
-       }
-
-      stage('Three') {
-        steps {
-          echo "three"
-        }
-      }
-
     }
+
+    stage('Two') {
+      steps {
+        echo "two"
+      }
+    }
+
+    stage('Three') {
+      steps {
+        echo "three"
+      }
+    }
+
+  }
