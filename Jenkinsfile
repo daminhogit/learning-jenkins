@@ -4,11 +4,10 @@ pipeline {
     pollSCM('* * * * *')
     }
 
-
     stages {
         stage('New') {
             steps {
-                echo 'Hello World Go'
+                echo 'Hello World Lets Go'
             }
         }
     }
