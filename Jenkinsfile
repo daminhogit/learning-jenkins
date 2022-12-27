@@ -1,4 +1,4 @@
-/* pipeline {
+// pipeline {
     agent any
 
     stages {
@@ -8,7 +8,7 @@
             }
         }
     }
-} */
+} //
 
 pipeline {
   agent any
