@@ -1,3 +1,8 @@
+
+
+
+
+
 pipeline {
   agent any
 
@@ -20,4 +25,5 @@ pipeline {
         echo "three"
       }
     }
- '}'
+
+  }
